@@ -2,9 +2,9 @@
 
 > A jQuery-like, client library less than 1kb 
 
-Works like [jQuery](https://github.com/jquery/jquery), however more lighter. Have less methods and selectors than jQuery. Keeping only the essentials.
+Works like [jQuery](https://github.com/jquery/jquery), however more lighter. Have less methods and selectors than jQuery. 
 
-'Cause you want the $ of jQuery without the jQuery.
+`Keeping only the essentials.`
 
 ## Methods
 

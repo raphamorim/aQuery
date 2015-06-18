@@ -5,13 +5,13 @@ module.exports = function(grunt) {
 		uglify: {
 			main: {
 				files: {
-					"aQuery.min.js": "src/*.js"
+					'aQuery.min.js': ['src/utils.js', 'src/main.js']
 				}
 			}
 		},
 		concat: {
     		dist: {
-      			src: 'src/*.js',
+      			src: ['src/utils.js', 'src/main.js'],
       			dest: 'aQuery.js',
     		},
   		},
