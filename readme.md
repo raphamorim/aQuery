@@ -4,6 +4,8 @@
 
 Works like [jQuery](https://github.com/jquery/jquery), however more lighter. Have less methods and selectors than jQuery. 
 
+Strongly inspired by [You might not need jQuery](http://youmightnotneedjquery.com/).
+
 `Keeping only the essentials.`
 
 ## Methods
