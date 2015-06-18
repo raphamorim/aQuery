@@ -34,6 +34,12 @@ $('#anyElement').hide(); // without fadeOut effect
 $('#anyElement').hide(500); // with fadeOut effect
 ```
 
+### .toggle
+
+```javascript
+$('#nonsense').toggle('className');
+```
+
 ## Credits:
 
 Project inspired in a gist made by [Paul Irish](https://gist.github.com/paulirish/12fb951a8b893a454b32).
