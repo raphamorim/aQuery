@@ -1,0 +1,22 @@
+{
+  "name": "aQuery",
+  "version": "0.9.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raphamorim/aQuery.git"
+  },
+  "keywords": [
+    "jQuery"
+  ],
+  "author": "Raphael Amorim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raphamorim/aQuery/issues"
+  },
+  "homepage": "https://github.com/raphamorim/aQuery"
+}
