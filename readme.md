@@ -1,10 +1,10 @@
 # aQuery
 
-> A jQuery-like, client library less than 1kb 
+> A jQuery-like, client library less than 2kb 
 
 Works like [jQuery](https://github.com/jquery/jquery), however more lighter. Have less methods and selectors than jQuery. 
 
-`Keeping only the essentials.`
+`Keeping only the essentials`
 
 ## Methods
 
@@ -43,3 +43,5 @@ $('#nonsense').toggle('className');
 ## Credits:
 
 Project inspired in a gist made by [Paul Irish](https://gist.github.com/paulirish/12fb951a8b893a454b32).
+
+[Raphael Amorim](http://github.com/raphamorim) 2015.
