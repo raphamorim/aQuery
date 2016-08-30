@@ -1,12 +1,14 @@
 # aQuery
 
-> A jQuery-like, client library less than 2kb 
+> jQuery modeled chunk [<=1kb]
 
-Works like [jQuery](https://github.com/jquery/jquery), however more lighter. Have less methods and selectors than jQuery. 
+# Why??
 
-Strongly inspired by [You might not need jQuery](http://youmightnotneedjquery.com/).
+If the loading of your page, you use some jquery plugins methods to load, validate browser or whatever. You do not want to stop loading the page to get a 30 to 35kb script where you will use some methods.
 
-`Keeping only the essentials`
+The aQuery allows you to use the same methods and when the page loads it enables be replaced by jQuery. So do not block the loading of the page. Working as a chunk.
+
+Also: Supports UMD.
 
 ## Methods
 
@@ -36,14 +38,18 @@ $('#anyElement').hide(); // without fadeOut effect
 $('#anyElement').hide(500); // with fadeOut effect
 ```
 
-### .toggle
+### .addClass
 
 ```javascript
-$('#nonsense').toggle('className');
+$('#nonsense').addClass('className');
+```
+
+### .removeClass
+
+```javascript
+$('#nonsense').addClass('className');
 ```
 
 ## Credits:
 
-Project inspired in a gist made by [Paul Irish](https://gist.github.com/paulirish/12fb951a8b893a454b32).
-
-[Raphael Amorim](http://github.com/raphamorim) 2015.
+[Raphael Amorim](http://github.com/raphamorim) 2016.
